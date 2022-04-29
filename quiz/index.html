@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Quiz</title>
+<script language="JavaScript" src="quizprg.js"></script>
+<link rel="stylesheet" type="text/css" href="quzstyle.css" />
+</head>
+<body bgcolor="#00ffff">
+<form name="f" >
+<table align="center" width="80%" height="50%" border="0">
+<col width="40" />
+<col width="40" />
+
+<tr>
+<th class="tit" colspan="2">Quiz</th></tr>
+<tr>
+<td align="center"><input type="text" id="rd" name="rd" size="10" class="big" readonly="readonly" /></td>
+<td>
+
+
+
+
+
+
+
+
+
+
+
+
+<img align="left" src="blank.png" id="pic" name="pic" width="90pt" height="90pt" /></td></tr>
+
+<tr>
+<td class="mvrt" colspan="2"><h2 id="q" name="q"> </h2></td>
+</tr>
+
+<tr>
+<td colspan="2" class="mvrto"><input type="radio" name="Ans"  id="Ans" value="a" />&nbsp;&nbsp;&nbsp;&nbsp;<span onclick="document.f.Ans[0].checked='TRUE';"><b id="opa"> </b></td>
+</tr>
+
+<tr>
+<td colspan="2" class="mvrto"><input type="radio" name="Ans"  id="Ans" value="b" />&nbsp;&nbsp;&nbsp;&nbsp;<span onclick="document.f.Ans[1].checked='TRUE';"><b id="opb"> </b></td>
+</tr>
+
+<tr>
+<td colspan="2" class="mvrto"><input type="radio" name="Ans" id="Ans"  value="c" />&nbsp;&nbsp;&nbsp;&nbsp;<span onclick="document.f.Ans[2].checked='TRUE';"><b id="opc"> </b></td>
+</tr>
+<tr><td> .</td></tr>
+<tr>
+<td colspan="2" class="mvrtb"><input id="sub" name="sub"  class="big"   type="button"  value="Begin" onclick="quiz();" /></td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
